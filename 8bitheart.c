@@ -228,7 +228,8 @@ unsigned char alphanum[38][2] = {
   { 0b10011110, 0b11101001 }, // K
   { 0b11001100, 0b11111111 }, // L
 
-  { 0b11111111, 0b10111001 }, // M
+  //{ 0b11111111, 0b10111001 }, // M
+  { 0b11111111, 0b11111001 }, // M
   { 0b11011101, 0b10111011 }, // N
   { 0b11111101, 0b10111111 }, // O
   { 0b11111011, 0b11111000 }, // P
@@ -253,7 +254,8 @@ unsigned char alphanum[38][2] = {
   { 0b01110001, 0b00110111 }, // 3
   { 0b01000101, 0b01110011 }, // 4
   { 0b01110100, 0b00110111 }, // 5
-  { 0b00110110, 0b01110111 }, // 6
+  //{ 0b00110110, 0b01110111 }, // 6
+  { 0b01110110, 0b01010111 }, // 6
   { 0b01110111, 0b00110011 }, // 7
   { 0b00110111, 0b01110111 }, // 8
   { 0b01110101, 0b00110011 }, // 9
@@ -436,7 +438,8 @@ void copy_anim_to_back_buf_shiftl(unsigned char *anim, unsigned char shiftl) {
 
 //unsigned char msg[14] = "hello ohs2015";
 //unsigned char msg[] = " hello rama";
-unsigned char msg[] = "ohs2015";
+//unsigned char msg[] = "ohs2015";
+unsigned char msg[] = "n6maa21516";
 
 unsigned char slen(unsigned char *m) {
   unsigned char x=0;
